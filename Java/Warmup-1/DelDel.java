@@ -6,6 +6,16 @@
 public class DelDel {
 	public static void main(String[] agrs) {
 		System.out.println(delDel("adelbc")); // "abc"
+		System.out.println(delDel("adelHello")); // "aHello"
+		System.out.println(delDel("adedbc")); // "adedbc"
+		System.out.println(delDel("abcdel")); // "abcdel"
+		System.out.println(delDel("add")); // "add"
+		System.out.println(delDel("ad")); // "ad"
+		System.out.println(delDel("a")); // "a"
+		System.out.println(delDel("")); // ""
+		System.out.println(delDel("del")); // "del"
+		System.out.println(delDel("adel")); // "a"
+		System.out.println(delDel("aadelbb")); // "aadelbb"
 	}
 
 	public static String delDel(String str) {
