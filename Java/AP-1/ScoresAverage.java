@@ -21,15 +21,15 @@ public class ScoresAverage {
 	}
 
 	public static int scoresAverage(int[] scores) {
-		int[] firstHalf = new int[scores.length/2];
-		int j = 0;
-		for(int i = 0; i < scores.length/2; i++) {
-			firstHalf[j] = scores[i];
-			j++;
+		int half = scores.length/2;
+
+		int[] firstHalf = new int[half];
+		for(int i = 0; i < half; i++) {
+			firstHalf[i] = scores[i];
 		}
-		int[] secondHalf = new int[scores.length/2];
-		j = 0;
-		for(int i = scores.length/2; i < scores.length; i++) {
+		int[] secondHalf = new int[half];
+		int j = 0;
+		for(int i = half; i < scores.length; i++) {
 			secondHalf[j] = scores[i];
 			j++;
 		}

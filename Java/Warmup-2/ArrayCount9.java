@@ -23,8 +23,8 @@ public class ArrayCount9 {
 	public static int arrayCount9(int[] nums) {
 		int counter = 0;
 
-		for(int i = 0; i < nums.length; i++) {
-			if(nums[i] == 9) {
+		for(int number : nums) {
+			if(number == 9) {
 				counter++;
 			}
 		}

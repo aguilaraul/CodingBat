@@ -33,8 +33,8 @@ public class ArrayFront9 {
 
 	public static boolean arrayFront9(int[] nums) {
 		if(nums.length < 4) {
-    			for(int i = 0; i < nums.length; i++) {
-      				if(nums[i] == 9) {
+    			for(int number : nums) {
+      				if(number == 9) {
         				return true;
       				}
     			}
