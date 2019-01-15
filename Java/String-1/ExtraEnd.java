@@ -14,10 +14,10 @@ public class ExtraEnd {
 
 	public static String extraEnd(String str) {
 		if(str.length() == 2) {
-    		return str+str+str;
+    			return str+str+str;
   		} else {
-    		String end = str.substring(str.length()-2);
-    		return end+end+end;
+    			String end = str.substring(str.length()-2);
+    			return end+end+end;
   		}
 	}
 }
