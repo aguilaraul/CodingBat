@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakeChocolate",
+            "request": "launch",
+            "mainClass": "MakeChocolate"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Blackjack",
+            "request": "launch",
+            "mainClass": "Blackjack"
+        }
+    ]
+}
