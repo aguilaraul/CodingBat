@@ -7,7 +7,8 @@ public class DoubleChar {
 		String result = "";
 
 		for(int i = 0; i < str.length(); i++) {
-			result = result + str.charAt(i) + str.charAt(i);
+			char c = str.charAt(i);
+			result = result + c + c;
 		}
 
 		return result;
