@@ -1,3 +1,8 @@
+/**
+ * Given two strings, return true if either of the strings appear at
+ * the very end of the other string, ignoring upper/lower case
+ * differences
+ */
 public class EndOther {
     public boolean endOther(String a, String b) {
         String shorter = a.toLowerCase();

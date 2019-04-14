@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GetSandwich",
+            "request": "launch",
+            "mainClass": "GetSandwich"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RepeatFront",
+            "request": "launch",
+            "mainClass": "RepeatFront"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BobThere",
             "request": "launch",
             "mainClass": "BobThere"
