@@ -7,7 +7,7 @@ public class WordsFront {
         String[] result = new String[n];
 
         for(int i = 0; i < n; i++) {
-            resutl[i] = words[i];
+            result[i] = words[i];
         }
 
         return result;

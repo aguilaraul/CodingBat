@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CopyEndy",
+            "request": "launch",
+            "mainClass": "CopyEndy",
+            "projectName": "AP-1_fc36323"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MatchUp",
+            "request": "launch",
+            "mainClass": "MatchUp",
+            "projectName": "AP-1_fc36323"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScoresSpecial",
+            "request": "launch",
+            "mainClass": "ScoresSpecial",
+            "projectName": "AP-1_fc36323"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CopyEvens",
+            "request": "launch",
+            "mainClass": "CopyEvens",
+            "projectName": "AP-1_fc36323"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScoresIncreasing",
+            "request": "launch",
+            "mainClass": "ScoresIncreasing",
+            "projectName": "AP-1_fc36323"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DividesSelf",
+            "request": "launch",
+            "mainClass": "DividesSelf",
+            "projectName": "AP-1_fc36323"
+        }
+    ]
+}
