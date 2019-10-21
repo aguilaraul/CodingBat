@@ -18,13 +18,13 @@ public class XYZThere {
             return false;
         }
 
-        for(int i = 0; i < str.length()-3; i++) {
-            if(str.substring(i, i+3).contains("xyz")) {
-                if(str.charAt(i-1) == '.' && i >= 1) {
-                    return false;
-                }
+        int period = str.indexOf('.');
+        if(period >= 0) {
+            String test = str.substring(period+1, period+4);
+            if(test.equals("xyz")) {
+                return false;
             }
-        }
+        } 
 
         return true;
     }
