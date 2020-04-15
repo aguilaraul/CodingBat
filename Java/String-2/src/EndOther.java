@@ -13,11 +13,6 @@ public class EndOther {
             shorter = b;
         }
 
-        if(longer.substring(longer.length()-shorter.length()).contains(shorter)) {
-            return true;
-        }
-
-
-        return false;
+        return longer.substring(longer.length() - shorter.length()).contains(shorter);
     }
 }

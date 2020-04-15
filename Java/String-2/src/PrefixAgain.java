@@ -8,10 +8,6 @@ public class PrefixAgain {
         String prefix = str.substring(0, n);
         str = str.substring(n);
 
-        if(str.contains(prefix)) {
-            return true;
-        }
-
-        return false;
+        return str.contains(prefix);
     }
 }

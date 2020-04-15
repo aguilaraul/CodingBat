@@ -5,15 +5,6 @@
 public class RepeatSeparator {
     public String repeatSeparator() {
         String result = "";
-        if(count == 1) return word;
-  
-        for(int i = count; i > 0; i--) {
-            result += word;
-            if(i > 1) {
-            result += sep;
-            }
-        }
-  
   
         return result;
     }

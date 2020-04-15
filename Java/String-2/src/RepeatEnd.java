@@ -6,12 +6,12 @@
 public class RepeatEnd {
     public String repeatEnd(String str, int n) {
         str = str.substring(str.length()-n);
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         for(int i = n; i > 0; i--) {
-            result += str;
+            result.append(str);
         }
 
-        return result;
+        return result.toString();
     }
 }

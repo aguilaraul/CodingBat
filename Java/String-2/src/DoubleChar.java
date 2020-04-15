@@ -4,13 +4,13 @@
  */
 public class DoubleChar {
 	public String doubleChar(String str) {
-		String result = "";
+		StringBuilder result = new StringBuilder();
 
 		for(int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
-			result = result + c + c;
+			result.append(c).append(c);
 		}
 
-		return result;
+		return result.toString();
 	}
 }
