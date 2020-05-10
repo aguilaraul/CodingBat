@@ -1,5 +1,6 @@
 public class ShiftLeft {
-    public static int[] shiftLeft(int[] nums) {
+
+    public int[] shiftLeft(int[] nums) {
         if(nums.length == 0) {
             return nums;
         }
